@@ -1,0 +1,15 @@
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.produtos h1 {
+  margin: 0.5rem 0;
+}
+
+.nome:hover {
+  color: #aaa;
+  cursor: pointer;
+}
